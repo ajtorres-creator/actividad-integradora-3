@@ -101,29 +101,6 @@ a:hover {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
-.producto img {
-    width: 200px;
-    height: 200px;
-    object-fit: cover;
-    border-radius: 10px;
-}
-
-.productos {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 25px;
-    margin-top: 30px;
-}
-
-.producto {
-    background-color: white;
-    width: 250px;
-    padding: 20px;
-    border-radius: 12px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-}
-
 .producto h2 {
     margin: 15px 0 10px;
     color: #333;
@@ -158,4 +135,42 @@ a:hover {
 .formulario-producto {
     max-width: 500px;
     margin: 30px auto;
+}
+
+.encabezado-tienda {
+    background-color: white;
+    padding: 30px;
+    margin-bottom: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.encabezado-tienda h1 {
+    margin-bottom: 10px;
+    font-size: 36px;
+}
+
+.encabezado-tienda p {
+    margin: 0;
+    color: #666;
+    font-size: 18px;
+}
+
+.nav-tienda {
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+}
+
+.nav-tienda a {
+    margin: 0 15px;
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-tienda a:hover {
+    text-decoration: underline;
 }
