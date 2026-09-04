@@ -37,11 +37,11 @@
         <br><br>
 
         <button type="submit">Registrar producto</button>
+        </form>
     </div>
-    </form>
     <br>
     <a href="lista.php">Ver productos registrados</a>
 
-    <script src="../../js/script.js"></script>
+    <script src="../../JS/script.js"></script>
 </body>
 </html>
