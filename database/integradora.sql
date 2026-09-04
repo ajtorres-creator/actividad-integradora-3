@@ -39,16 +39,8 @@ CREATE TABLE `productos` (
 -- Volcado de datos para la tabla `productos`
 --
 
-INSERT INTO `productos` (`id`, `nombre`, `descripcion`, `precio`, `imagen`) VALUES
-(1, 'osito tejido', 'Osito tejido a mano bajo pedido', 25.00, 'osito.jpg'),
-(2, 'osito tejido', 'Osito tejido a mano bajo pedido', 25.00, 'osito.jpg'),
-(3, '', 'Osito tejido a mano bajo pedido', 25.00, 'osito.jpg'),
-(4, '', 'oso', 25.00, 'osito.jpg'),
-(5, '', 'oso', 25.00, 'osito.jpg'),
-(6, 'osito tejido', '', 20.00, 'osito.jpg'),
-(7, 'osito tejido', '', 20.00, 'osito.jpg'),
-(8, 'osito tejido', '', 20.00, 'osito.jpg'),
-(9, 'osito tejido', '', 20.00, 'osito.jpg');
+-- La tabla se entrega inicialmente sin datos de prueba.
+-- Los productos reales se cargarán posteriormente.
 
 --
 -- Índices para tablas volcadas
@@ -68,7 +60,7 @@ ALTER TABLE `productos`
 -- AUTO_INCREMENT de la tabla `productos`
 --
 ALTER TABLE `productos`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

@@ -1,6 +1,6 @@
 <?php
 
-header("Location: views/productos/crear.php");
+header("Location: views/productos/tienda.php");
 exit;
 
 ?>

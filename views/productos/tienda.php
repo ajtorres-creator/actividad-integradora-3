@@ -71,7 +71,6 @@ $productos = $controller->listar();
 
     </div>
 
-</body>
 <footer class="footer-tienda">
 
     <h3>Tienda Artesanal</h3>
@@ -83,5 +82,7 @@ $productos = $controller->listar();
     <p>© 2026 Tienda Artesanal</p>
 
 </footer>
+
+</body>
 
 </html>
