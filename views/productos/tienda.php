@@ -15,7 +15,7 @@ $productos = $controller->listar();
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tienda Artesanal</title>
-    <link rel="stylesheet" href="../../css/estilo.css">
+    <link rel="stylesheet" href="../../CSS/estilo.css">
 </head>
 
 <body>
@@ -28,9 +28,23 @@ $productos = $controller->listar();
     <header class="encabezado-tienda">
     
         <h1>Tienda Artesanal</h1>
-        <p>Tejidos hechos a mano bajo pedido</p>
+        
+        <p>Tejidos hechos a mano con dedicación,
+        personalizados y elaborados bajo pedido.</p>
     
     </header>
+
+    <section class="presentacion-tienda">
+
+    <h2>Productos hechos a mano</h2>
+
+    <p>
+        Descubre nuestros tejidos artesanales elaborados con dedicación
+        y bajo pedido. Elige tu producto favorito y realiza tu pedido
+        directamente por WhatsApp.
+    </p>
+
+    </section>
 
     <div class="productos" id="productos">
 
@@ -58,5 +72,16 @@ $productos = $controller->listar();
     </div>
 
 </body>
+<footer class="footer-tienda">
+
+    <h3>Tienda Artesanal</h3>
+
+    <p>Tejidos hechos a mano bajo pedido</p>
+
+    <p>Pedidos y consultas por WhatsApp</p>
+
+    <p>© 2026 Tienda Artesanal</p>
+
+</footer>
 
 </html>
