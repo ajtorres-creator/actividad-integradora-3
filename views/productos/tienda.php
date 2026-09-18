@@ -15,7 +15,7 @@ $productos = $controller->listar();
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tienda Artesanal</title>
-    <link rel="stylesheet" href="../../CSS/estilo.css">
+    <link rel="stylesheet" href="../../CSS/estilo.css?v=2">
 </head>
 
 <body>
