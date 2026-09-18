@@ -21,17 +21,34 @@ $productos = $controller->listar();
 <body>
 
     <nav class="nav-tienda">
+
+    <div class="logo-tienda">
+        <img src="../../img/logo-creations-karen-nuevo.png"
+            alt="Logo Creations Karen">
+    </div>
+
+    <div class="nav-enlaces">
         <a href="tienda.php">Inicio</a>
         <a href="#productos">Productos</a>
+    </div>
+
     </nav>
     
     <header class="encabezado-tienda">
-    
-        <h1>Tienda Artesanal</h1>
-        
-        <p>Tejidos hechos a mano con dedicación,
-        personalizados y elaborados bajo pedido.</p>
-    
+    <div class="hero-contenido">
+        <span class="hero-etiqueta">Arte en tejidos</span>
+
+        <h1>Detalles hechos a mano con amor</h1>
+
+        <p>
+            Creamos tejidos artesanales personalizados,
+            elaborados con dedicación especialmente para ti.
+        </p>
+
+        <a href="#productos" class="btn-hero">
+            Ver productos
+        </a>
+    </div>
     </header>
 
     <section class="presentacion-tienda">
@@ -73,13 +90,23 @@ $productos = $controller->listar();
 
 <footer class="footer-tienda">
 
-    <h3>Tienda Artesanal</h3>
+    <div class="footer-contenido">
 
-    <p>Tejidos hechos a mano bajo pedido</p>
+        <div class="footer-marca">
+            <h3>Creations_Karen</h3>
+            <p>Arte en tejidos </p>
+        </div>
 
-    <p>Pedidos y consultas por WhatsApp</p>
+        <div class="footer-info">
+            <p>Tejidos hechos a mano y personalizados.</p>
+            <p>Pedidos y consultas por WhatsApp.</p>
+        </div>
 
-    <p>© 2026 Tienda Artesanal</p>
+    </div>
+
+    <div class="footer-copy">
+        <p>© 2026 Creations_Karen · Todos los derechos reservados</p>
+    </div>
 
 </footer>
 
